@@ -5,3 +5,6 @@ build/
 out/
 settings.gradle
 *.class
+*.jar
+*.war
+*.ear
