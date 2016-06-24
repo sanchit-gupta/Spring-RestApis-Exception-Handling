@@ -24,7 +24,7 @@ public class GlobalException extends Throwable{
     public HttpEntity<ResponseDto> handleThrowableError(Throwable e) {
         log.error("############ SOME EROR OCCURED ###############");
         log.error("REASON  "+ e.getMessage());
-        e.printStackTrace();
+//        e.printStackTrace();
         return response.throwableErrorResponse(e);
     }
 }
