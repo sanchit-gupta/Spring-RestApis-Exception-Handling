@@ -1,17 +1,9 @@
 package main.exception;
 
 
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.HashMap;
-import java.util.Map;
-
-@ControllerAdvice
-@RestController
-public class GlobalExceptionHandler {
+/*@ControllerAdvice
+@RestController*/
+public class GlobalExceptionHandler{} /*{
 
     @ExceptionHandler(value = CustomException.class)
     public Map<String, Object> handleInvalidParamException(InvalidParamException e) {
@@ -37,4 +29,4 @@ public class GlobalExceptionHandler {
         return map;
     }
 
-}
+}*/

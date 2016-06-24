@@ -15,7 +15,6 @@ public class ApiController {
 
     @RequestMapping("/rest/index")
     public HttpEntity index(String id) {
-
         return ResponseEntity.ok().body(apiService.saveToDB(id));
     }
 }

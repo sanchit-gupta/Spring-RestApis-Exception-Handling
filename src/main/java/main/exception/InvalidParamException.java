@@ -1,7 +1,7 @@
 package main.exception;
 
 public class
-        InvalidParamException extends CustomException {
+        InvalidParamException{} /*extends CustomException {
 
     public InvalidParamException(String message) {
         super(message);
@@ -9,3 +9,4 @@ public class
     }
 
 }
+*/
